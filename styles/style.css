@@ -145,6 +145,7 @@
   background-color: var(--accent-color-title-decor);
   color: var(--accent-color-text-title-decor);
   font-weight: 700;
+  font-size: 18px;
 }
 
 .title-content{
@@ -158,6 +159,10 @@
   font-family: inherit;
   line-height: 23.4px;
   color: var( --accent-color-main);
+}
+
+.title_block {
+  font-size: 18px;
 }
 
 .text-content {
