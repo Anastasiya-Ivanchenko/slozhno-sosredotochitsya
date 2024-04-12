@@ -11,7 +11,7 @@
   */
 }
 
-:root .theme_light {
+ :root .theme_light {
     --accent-color-title: #ffc2e6;
     --accent-color-title-decor: #ff8dcb;
     --accent-color-main: #353430;
@@ -20,7 +20,7 @@
     --family-text: 'IBM Plex mono', Courier, monospace;
     --font-size-h1: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
     --background-image: url(../images/cover-image-light.png);
-}
+} 
 
 @media (prefers-color-scheme: light) {
   :root {
@@ -33,6 +33,9 @@
     --font-size-h1: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
     --background-image: url(../images/cover-image-light.png);
   }
+  .theme_auto .rec{
+  display: none;
+}
 }
 
 .theme_light .rec {

@@ -11,7 +11,7 @@
   */
 }
 
-:root .theme-dark {
+:root .theme_dark {
     --accent-color-title: #db00ff;
     --accent-color-title-decor: #ff0070;
     --accent-color-main: #ff0070;
